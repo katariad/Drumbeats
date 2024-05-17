@@ -1,0 +1,7 @@
+@media (max-width:478px) {
+    .set button {
+        width: 40%;
+        height: 120px;
+        font-size: 50px;
+    }
+}
