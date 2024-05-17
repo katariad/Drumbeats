@@ -1,6 +1,8 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #030d33;
+  text-shadow: 5px 2px 5px #d81a4d;
+
 }
 
 h1 {
@@ -8,13 +10,14 @@ h1 {
   font-weight: 900;
   font-size: 35px;
   color: #f6f6f6;
+
 }
 
 h2 {
   font-size: 3rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+
 
 }
 
@@ -28,6 +31,7 @@ footer {
   background-size: contain;
   aspect-ratio: 2/3;
   background-repeat: no-repeat;
+
 
 }
 
@@ -61,7 +65,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 8% auto;
 }
 
 .game-over {
@@ -70,8 +74,8 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  box-shadow: 5px 5px 20px #d81a4d;
+  border: 5px solid #d81a4d;
 }
 
 .red {
@@ -94,4 +98,10 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+.bg-back {
+  background-image: url('images/bg-back.gif');
+  background-blend-mode: color-burn;
+  text-shadow: 10px 5px 30px #d81a4d;
 }
